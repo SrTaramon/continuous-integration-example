@@ -1,4 +1,4 @@
-FROM python:3.9.11-buster
+FROM python:3.8-7.3-buster
 
 RUN pip install Flask==0.11.1 redis==2.10.5
 
